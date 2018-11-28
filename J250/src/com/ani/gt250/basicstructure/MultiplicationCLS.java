@@ -9,5 +9,21 @@ public class MultiplicationCLS
 			System.out.printf("%d * %d = %d", val, i, val * i).println();
 		}
 	}
+	
+	void func1()
+	{
+		System.out.println("In Function 1");
+		func2();
+	}
 
+	void func2()
+	{
+		System.out.println("In Function 2");
+		func3();
+	}
+	
+	void func3()
+	{
+		System.out.println("In Function 3");
+	}
 }
