@@ -34,4 +34,22 @@ public class MyChar
 		else
 		return false;
 	}
+	
+	public boolean isConsonant()
+	{
+		if(isAlphabet() && !isVowel()) // NO NEED TO USE ch.isAlphabet or pass
+			return true;
+		else 
+			return false;
+	}
+	
+	public void printAllLowerCaseLetters()
+	{   
+		char c;			// NECESSARY TO DECLARE
+		
+		for(c ='a'; c < 'z'; c++)
+		{
+			System.out.println(c);
+		}
+	}
 }
